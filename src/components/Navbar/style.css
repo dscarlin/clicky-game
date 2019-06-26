@@ -1,0 +1,120 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: middle
+}
+
+li div {
+    margin: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+nav {
+    background: #aa2334;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    color: white;
+    position: fixed;
+    top: 0;
+    width:100%;
+    -webkit-box-shadow: 0px 0px 20px 5px black;
+    box-shadow: 0px 0px 20px 5px black;
+    z-index: 1;
+    min-height: 78px
+}
+
+ul {
+    margin: .2em;
+    padding: 0;
+}
+
+.correct {
+    -webkit-animation: .4s correct;
+    animation: .4s correct
+}
+
+.incorrect {
+    -webkit-animation: .4s incorrect;
+    animation: .4s incorrect
+}
+
+@-webkit-keyframes correct {
+    0% {
+        color: #fff
+    }
+
+    50% {
+        color: #2e7d32;
+        font-size: lar
+    }
+
+    to {
+        color: #fff
+    }
+}
+
+@keyframes correct {
+    0% {
+        color: #fff
+    }
+
+    50% {
+        color: #2e7d32;
+        font-size: lar
+    }
+
+    to {
+        color: #fff
+    }
+}
+
+@-webkit-keyframes incorrect {
+    0% {
+        color: #fff
+    }
+
+    25% {
+        color: rgb(255, 0, 0)
+    }
+
+    50% {
+        color: #fff
+    }
+
+    75% {
+        color: rgb(255, 0, 0)
+    }
+
+    to {
+        color: #fff
+    }
+}
+
+@keyframes incorrect {
+    0% {
+        color: #fff
+    }
+
+    25% {
+        color: rgb(255, 0, 0)
+    }
+
+    50% {
+        color: #fff
+    }
+
+    75% {
+        color: rgb(255, 0, 0)
+    }
+
+    to {
+        color: #fff
+    }
+}
+                      

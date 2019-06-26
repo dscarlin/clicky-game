@@ -1,0 +1,23 @@
+.headerBg {
+    background-image: url("https://wallpapercave.com/wp/ptJXIIb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 30vw;
+    margin-top: 75px;
+    color:white;
+    background-color: rgb(1,75,148);
+    position: relative;
+    z-index: 0;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    height: fit-content
+    
+}
+
+.headerBg h2 {
+    position: absolute;
+    top: calc(10vw - 30px);
+    left: 1em;
+    width: 50vw;
+    max-width: 500px
+}
